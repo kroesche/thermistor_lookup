@@ -1,0 +1,12 @@
+{
+    "board": "diyBMSv4 prototype (oshpark purple) board",
+    "thermistor": "Sunlord SDNT2012X473F4150FTF",
+    "Tstart": -5,
+    "Tstop": 80,
+    "Tstep": 8,
+    "Tnominal": 25,
+    "Rnominal": 47000,
+    "Rpulldown": 47000,
+    "beta": 4150,
+    "counts": 1023
+}
