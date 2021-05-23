@@ -208,8 +208,8 @@ int16_t adc_to_temp(uint16_t adc)
         }
     }
 
-    int16_t delta = adc - adc0;
-    uint16_t range = adc1 - adc0;
+    int16_t delta = (int16_t)adc - adc0;
+    int16_t range = adc1 - adc0;
     int16_t half_digit = range >> 1;
 
     int16_t temp = delta * T_STEP + half_digit;
